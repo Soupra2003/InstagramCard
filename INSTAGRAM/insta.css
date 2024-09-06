@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+body{
+    background: linear-gradient(rgb(215, 215, 215),rgb(79, 79, 79));
+    width: 100%;
+    height: 80vh
+}
+
+.card{
+    width: 700px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 120px;
+    margin-left: 450px;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    box-shadow: 0 0 90px rgb(173, 1, 119);
+    
+}
+
+.box{
+    height: 120px;
+    width: 700px;
+    background: linear-gradient(70deg,yellow,rgb(233, 2, 117),rgb(255, 57, 255),rgb(78, 78, 255)) ;
+    border-radius: 15px;
+}
+.image{
+    display: flex;
+}
+.image a img{
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    /* padding: 3px 3px; */
+    border: 5px solid white;
+}
+.name h2{
+    margin-top: 50px;
+    font-family: Bookmanoldstyle;
+    font-size: 1.9rem;
+    margin-left: 15px;
+    
+}
+.image h5{
+    margin-left: 15px;
+}
+.image a {
+   height: 10px;
+   margin-left: 50px;
+   margin-top: 15px;
+}
+.image p{
+    margin-top: 60px;
+    margin-left: 0px;
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+.image p a{
+    padding: 8px 12px;
+    background-color: rgb(68, 0, 255);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid white;
+
+}
+.call{
+    display: flex;
+}
+.call img{
+    height: 38px;
+    
+    margin-top: 80px;
+    border-radius: 100%;
+    margin-left: 30px;
+}
+.call p{
+    margin-left: 10px;
+    margin-top: 88px;
+}
+.mail{
+    display: flex;
+}
+.mail img{
+    height: 30px;
+    
+    border-radius: 100%;
+    margin-top: 05px;
+    margin-left: 34px;
+}
+.mail p{
+    margin-top: 10px;
+    margin-left: 18px;
+}
+.facebook{
+    display: flex;
+}
+.facebook img{
+    height: 30px;
+    margin-left: 33px;
+    margin-top: 12px;
+}
+.facebook p{
+    margin-top: 17px;
+    margin-left: 18px;
+}
+.row{
+    display: flex;
+}
+.rule{
+    height: 140px;
+    width: 2px;
+    background-color: black;
+    margin-left: 50px;
+    margin-top: 65px;
+}
+.QR a img{
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.row h2{
+    margin-top: 80px;
+    margin-left: 10px;
+    font-family:DM Serif Display ;
+}
+.note h6{
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(105, 105, 105);
+}
